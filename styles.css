@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header {
+    /* height: 56px; */
+    background-color: #000;
+    padding: 16px;
+}
