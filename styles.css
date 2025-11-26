@@ -28,6 +28,16 @@ header {
     padding: 16px 16px 8px;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.product-container{
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
 }
 
 .menu-section {
@@ -85,7 +95,6 @@ header {
     margin-left: 8px;
     display: flex;
     flex-direction: column;
-    width: fit-content;
 }
 
 
@@ -105,7 +114,7 @@ header {
 }
 
 footer {
-    padding: 8px 16px 40px;
+    padding: 8px 16px 132px;
 }
 
 .top-footer {
@@ -118,21 +127,120 @@ footer {
 }
 
 .add-section {
-    margin-bottom: 32px;
+    margin-bottom: 40px;
 }
 
 .add-section p {
     color: #fff;
     font-size: 16px;
     font-weight: 700;
-    font-family: spotify-txt;
+    font-family: spotify-Bold;
 }
 
 .add-section li {
     color: rgb(179, 179, 179);
-    font-family: spotify-txt;
+    font-family: spotify-regular;
     font-size: 16px;
     font-weight: 400;
     margin-top: 8px;
     list-style: none;
+}
+.social-media {
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    gap: 16px;
+}
+.media-logos button {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(41, 41, 41);
+    border-radius: 50%;
+    border: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spotify-licence {
+    padding-top: 38px;
+}
+.spotify-policy {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.policy-content {
+    color: rgb(179, 179, 179);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: spotify-regular;
+    margin: 0 16px 8px 0;
+}
+.spotify-policy div:nth-child(n+1):nth-child(-n+3) {
+    margin: 0 16px 10px 0;
+}
+.spotify-copyright{
+    display: flex;
+    align-items: end;
+}
+.copy-content {
+    color: rgb(179, 179, 179);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: spotify-regular;
+    padding-right: 16px;       
+}
+.language {
+    padding-top: 16px;
+}
+.language button {
+    background-color: transparent;
+    border: 1px solid #818181;
+    padding:4px 16px 4px 12px;
+    color: #fff;
+    border-radius: 9999px;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    font-family: spotify-Bold;
+    font-size: 13px;
+    font-weight: 700;
+    height: 32px;
+}
+@media screen and (min-width:768px) {
+    .footer-content{
+        flex-direction: row;
+    }
+    .add-section {
+        width: 40%;
+        margin-right: 24px;
+    }
+    .policy-content {
+        margin-bottom: 8px !important;
+    }
+}
+@media screen and (min-width:992px) {
+    footer {
+        padding:8px 32px 132px;
+    }
+    .footer-content {
+        flex-wrap: nowrap;
+         flex: 1 1 50%; 
+    }
+    .add-section {
+        width: 20%;
+    }
+    .top-footer {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .language {
+        display: none;
+    }
+    .spotify-licence {
+        display: flex;
+        justify-content: space-between;
+        align-items: top;
+    }
 }
