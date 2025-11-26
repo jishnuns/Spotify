@@ -1,11 +1,138 @@
+@font-face {
+    font-family: spotify-Bold;
+    src: url(fonts/SpotifyMixUI-Bold-4264b799009b1db5c491778b1bc8e5b7.woff2);
+}
+
+@font-face {
+    font-family: spotify-Regular;
+    src: url(fonts/SpotifyMixUI-Regular-cc3b1de388efa4cbca6c75cebc24585e.woff2);
+}
+
+@font-face {
+    font-family: spotify-txt;
+    src: url(fonts/SpotifyMixUITitleVariable-8769ccfde3379b7ebcadd9529b49d0cc.woff2);
+}
+
 * {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+}
+
+body {
+    background-color: rgb(18, 18, 18);
 }
 
 header {
     /* height: 56px; */
     background-color: #000;
-    padding: 16px;
+    padding: 16px 16px 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-section {
+    display: flex;
+}
+
+.open-app {
+    border-radius: 9999px;
+    background-color: #fff;
+    border: #fff;
+    height: 32px;
+    padding: 4px 16px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: spotify-txt;
+
+    transform: translateY(-4px);
+}
+
+.menu-button img{
+    margin-left: 16px;
+}
+
+/* .product-container {
+    padding: 0px 16px;
+} */
+
+.product-heading {
+    margin-top: 24px;
+    margin-bottom: 12px;
+    margin-left: 16px;
+}
+
+.product-heading h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: spotify-txt;
+}
+
+.add-scroll {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.product-profile {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-profile:nth-child(1) {
+    padding: 8px;
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+
+.product-img {
+    width: 152px;
+    border-radius: 4px;
+    height: 152px;
+    object-fit: cover  ;
+}
+
+.product-name {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: spotify-regular;
+    padding-top: 8px;
+}
+
+footer {
+    padding: 8px 16px 40px;
+}
+
+.top-footer {
+    margin-top: 32px;
+}
+
+.footer-content {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.add-section {
+    margin-bottom: 32px;
+}
+
+.add-section p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: spotify-txt;
+}
+
+.add-section li {
+    color: rgb(179, 179, 179);
+    font-family: spotify-txt;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+    list-style: none;
 }
