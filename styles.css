@@ -219,7 +219,7 @@ footer {
         margin-bottom: 8px !important;
     }
 }
-@media screen and (min-width:992px) {
+ @media screen and (min-width:992px) {
     footer {
         padding:8px 32px 132px;
     }
@@ -243,4 +243,4 @@ footer {
         justify-content: space-between;
         align-items: top;
     }
-}
+} 
