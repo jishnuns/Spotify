@@ -22,23 +22,29 @@ body {
     background-color: #121212;
 }
 
-.header-mobile-view {
-    background-color: #000;
-    padding: 16px 16px 8px;
-    display: flex;
-    justify-content: space-between;
+header {
+    width: 100%;
     position: fixed;
-    left: 0;
     top: 0;
-    right: 0;
+
 }
 
+.header-mobile-view {
+    background-color: #000;
+    padding: 12px 16px 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.spotify-logo {
+    padding-top: 4px;
+}
 .menu-section {
     display: flex;
 }
 
 .open-app {
-    border-radius: 9999px;
+    border-radius: 50px;
     background-color: #fff;
     border: #fff;
     height: 32px;
@@ -46,11 +52,15 @@ body {
     font-size: 13px;
     font-weight: 700;
     font-family: spotify-Bold;
-    transform: translateY(-4px);
 }
 
 .menu-button img{
     margin-left: 16px;
+    padding-top: 4px;
+}
+
+.header-tab-view {
+    display: none;
 }
 
 @media screen and (min-width:960px) {
@@ -102,10 +112,11 @@ body {
     .supports-content {
         display: flex;
         color: #b3b3b3;
-        font-weight: 700px;
+        font-weight: 700;
         font-family: spotify-Bold;
         font-size: 16px;
         padding: 8px 0px;
+        text-decoration: none;
     }
 
     .vertical-line {
@@ -118,12 +129,14 @@ body {
     .install-app-btn {
         color: #b3b3b3;
         font-size: 14px;
-        font-family: spotify-Regular;
+        font-family: spotify-Bold;
         font-weight: 700;
         display: flex;
         text-wrap: nowrap;
         gap: 8px;
-        padding: 4px 16px 4px 10px;
+        padding: 4px 16px 4px 13px;
+        border: none;
+        background-color: transparent;
     }
 
     .main-login {
@@ -132,26 +145,28 @@ body {
     }
     
     .signup-btn {
-        padding: 4px 16px 4px 15px;
+        padding: 4px 16px 4px 8px;
         color: #b3b3b3;
         font-size: 14px;
         font-family: spotify-txt;
         font-weight: 700;
         text-wrap: nowrap;
+        background-color: transparent;
+        border: none;
     }
 
     .login-btn {
         background-color: #fff;
         border: 1px solid #fff;
-        border-radius: 9999px;
+        border-radius: 50px;
         height: 48px;
     }
 
-    .login-btn div {
-        padding: 8px 32px;
+    .login-btn span {
+        padding: 8px 31px;
         text-wrap: nowrap;
         font-size: 16px;
-        font-family: spotify-Regular;
+        font-family: spotify-Bold;
         font-weight: 700;
     }
 }
