@@ -39,6 +39,7 @@ header {
 .spotify-logo {
     padding-top: 4px;
 }
+
 .menu-section {
     display: flex;
 }
@@ -54,7 +55,7 @@ header {
     font-family: spotify-Bold;
 }
 
-.menu-button img{
+.menu-button img {
     margin-left: 16px;
     padding-top: 4px;
 }
@@ -84,6 +85,7 @@ header {
         display: flex;
         min-width: auto;
         width: 100%;
+        gap: 8px;
     }
 
     .home-search button {
@@ -98,12 +100,7 @@ header {
         margin-left: 12px;
     }
 
-    .search-bar {
-        padding: 0 8px;
-        width: 100%;
-    }
-
-    .spotify-supports{
+    .spotify-supports {
         display: flex;
         align-items: center;
         gap: 8px;
@@ -143,7 +140,7 @@ header {
         display: flex;
         align-items: center;
     }
-    
+
     .signup-btn {
         padding: 4px 16px 4px 8px;
         color: #b3b3b3;
