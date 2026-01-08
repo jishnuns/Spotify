@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Spotify</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-mobile-view">
+        <div class="spotify-logo">
+          <img src="img/spotify-logo.svg" />
+        </div>
+        <div class="menu-section">
+          <button class="open-app">Open App</button>
+          <div class="menu-button">
+            <img src="img/menu-logo.svg" alt="menu icon" />
+          </div>
+        </div>
+      </div>
+      <div class="header-tab-view">
+        <div class="add-logo">
+          <img src="img/spotify-tab.svg" alt="spotify logo" />
+        </div>
+        <div class="home-search">
+          <button class="home-btn">
+            <img src="img/home.svg" alt="home icon" />
+          </button>
+          <button class="search-btn">
+            <img src="img/search.svg" alt="search icon" class="search-icon" />
+            <div class="search-bar">
+              <input placeholder="What do you want to play" />
+              <div class="browse-btn">
+                <img src="img/browse.svg" alt="" />
+              </div>
+            </div>
+          </button>
+        </div>
+        <div class="spotify-supports">
+          <a href="#" class="supports-content">Premium</a>
+          <a href="#" class="supports-content">Support</a>
+          <a href="#" class="supports-content">Download</a>
+          <div class="vertical-line"></div>
+          <button class="install-app-btn">
+            <img src="img/download.svg" alt="download icon" />Install App
+          </button>
+          <div class="main-login">
+            <button class="signup-btn">Sign up</button>
+            <button class="login-btn">Log in</button>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
