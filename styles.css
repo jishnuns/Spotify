@@ -63,6 +63,55 @@ header {
   display: none;
 }
 
+.product-container {
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-heading {
+  margin-top: 24px;
+  margin-bottom: 12px;
+  margin-left: 16px;
+}
+
+.product-heading h2{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: spotify-txt;
+}
+
+.add-scroll {
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.product-profile {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.product-profile:nth-child(1){
+  margin-left: 8px;
+}
+
+.product-img{
+  width: 152px;
+  border-radius:4px;
+  height: 152px;
+  object-fit: cover;
+}
+
+.product-name {
+  color: #fff;
+  font-size: 16px;
+  font-family: spotify-regular;
+}
+
 @media screen and (min-width: 960px) {
   .header-mobile-view {
     display: none;
