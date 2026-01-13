@@ -19,7 +19,8 @@
 }
 
 body {
-  background-color: #121212;
+  background-color: #000;
+  margin-top: 63px;
 }
 
 header {
@@ -63,55 +64,91 @@ header {
   display: none;
 }
 
-.product-container {
-  margin-top: 56px;
+.song-container {
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
+  background-color: #121212;
+  border-right: 8px;
 }
 
-.product-heading {
+.song-heading {
   margin-top: 24px;
   margin-bottom: 12px;
   margin-left: 16px;
 }
-
-.product-heading h2 {
+.title {
   color: #fff;
   font-size: 20px;
   font-weight: 700;
   font-family: spotify-txt;
 }
 
-.add-scroll {
+.cards-scroll {
   display: flex;
   overflow-x: scroll;
   scrollbar-width: none;
 }
 
-.product-profile {
+.song-profile {
   padding: 8px;
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.product-profile:nth-child(1) {
+.song-profile:nth-child(1) {
   margin-left: 8px;
 }
 
-.product-img {
+.song-img {
   width: 152px;
   border-radius: 4px;
   height: 152px;
   object-fit: cover;
 }
 
-.product-name {
+.song-name {
   color: #fff;
   font-size: 16px;
   font-family: spotify-regular;
 }
 
+.mobile-bottom-navigation {
+  background: transparent;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9), #121212);
+  display: flex;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  height: 70px;
+}
+
+.mobile-bottom-navigation a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  gap: 4px;
+  justify-content: center;
+}
+
+.mobile-bottom-navigation a:nth-child(1) .nav-text{
+  color: #fff;
+}
+
+.nav-text {
+  font-size: 11px;
+  font-family: spotify-Regular;
+  color: #b3b3b3;
+}
+
+.side-library {
+  display: none;
+}
+  
 @media screen and (min-width: 960px) {
   .header-mobile-view {
     display: none;
@@ -221,6 +258,52 @@ header {
   .search-bar {
     display: none;
   }
+
+  .content-layout {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .mobile-bottom-navigation{
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    padding: 16px 16px 8px;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .side-library {
+    display: block;
+    min-width: 280px;
+    border-radius:8px;
+    background-color: #121212;
+    margin-left: 8px;
+  }
+
+  .library-heading h1{
+    margin-inline-start: 4px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: spotify-txt;
+    text-wrap: nowrap;
+  }
+
+  .add-button button {
+    background: transparent;
+    border: none;
+    padding: 8px;
+  }
+
+  .song-container {
+    border-radius: 8px;
+  }
+
 }
 
 @media screen and (min-width: 1069px) {
