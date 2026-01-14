@@ -72,16 +72,14 @@ header {
   border-right: 8px;
 }
 
-.song-heading {
-  margin-top: 24px;
-  margin-bottom: 12px;
-  margin-left: 16px;
-}
 .title {
   color: #fff;
   font-size: 20px;
   font-weight: 700;
   font-family: spotify-txt;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  margin-left: 16px;
 }
 
 .cards-scroll {
@@ -126,7 +124,7 @@ header {
   height: 70px;
 }
 
-.mobile-bottom-navigation a {
+.nav-bottom-bar {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -135,7 +133,7 @@ header {
   justify-content: center;
 }
 
-.mobile-bottom-navigation a:nth-child(1) .nav-text{
+.mobile-bottom-navigation .nav-bottom-bar:nth-child(1) .nav-text {
   color: #fff;
 }
 
@@ -148,7 +146,7 @@ header {
 .side-library {
   display: none;
 }
-  
+
 @media screen and (min-width: 960px) {
   .header-mobile-view {
     display: none;
@@ -265,7 +263,7 @@ header {
     gap: 8px;
   }
 
-  .mobile-bottom-navigation{
+  .mobile-bottom-navigation {
     display: none;
   }
 
@@ -280,12 +278,12 @@ header {
   .side-library {
     display: block;
     min-width: 280px;
-    border-radius:8px;
+    border-radius: 8px;
     background-color: #121212;
     margin-left: 8px;
   }
 
-  .library-heading h1{
+  .library-heading {
     margin-inline-start: 4px;
     color: #fff;
     font-weight: 700;
@@ -294,7 +292,7 @@ header {
     text-wrap: nowrap;
   }
 
-  .add-button button {
+  .add-button {
     background: transparent;
     border: none;
     padding: 8px;
@@ -304,6 +302,58 @@ header {
     border-radius: 8px;
   }
 
+  .playlist-container {
+    padding: 0 8px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .spotify-playlist-content {
+    background: #1f1f1f;
+    border-radius: 8px;
+    margin: 8px 0;
+    padding: 16px 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .spotify-playlist-header {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+  }
+
+  .playlist-sub-title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: spotify-txt;
+  }
+
+  .playlist-text {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    font-family: spotify-Regular;
+  }
+
+  .create-playlist-btn {
+    border-radius: 50px;
+    background: #fff;
+    border: none;
+    width: fit-content;
+  }
+
+  .create-playlist-content {
+    padding: 4px 16px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: spotify-Regular;
+  }
 }
 
 @media screen and (min-width: 1069px) {
