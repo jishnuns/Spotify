@@ -1,559 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Spotify</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-
-<body>
-  <header>
-    <div class="header-mobile-view">
-      <div class="spotify-logo">
-        <img src="img/spotify-logo.svg" />
-      </div>
-      <div class="menu-section">
-        <button class="open-app">Open App</button>
-        <div class="menu-button">
-          <img src="img/menu-logo.svg" alt="menu icon" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-mobile-view">
+        <div class="spotify-logo">
+          <img src="img/spotify-logo.svg" />
         </div>
-      </div>
-    </div>
-    <div class="header-tab-view">
-      <div class="add-logo">
-        <img src="img/spotify-tab.svg" alt="spotify logo" />
-      </div>
-      <div class="home-search">
-        <button class="home-btn">
-          <img src="img/home.svg" alt="home icon" />
-        </button>
-        <button class="search-btn">
-          <img src="img/search.svg" alt="search icon" class="search-icon" />
-          <div class="search-bar">
-            <input placeholder="What do you want to play" />
-            <div class="browse-btn">
-              <img src="img/browse.svg" alt="" />
-            </div>
+        <div class="menu-section">
+          <button class="open-app">Open App</button>
+          <div class="menu-button">
+            <img src="img/menu-logo.svg" alt="menu icon" />
           </div>
-        </button>
-      </div>
-      <div class="spotify-supports">
-        <a href="#" class="supports-content">Premium</a>
-        <a href="#" class="supports-content">Support</a>
-        <a href="#" class="supports-content">Download</a>
-        <div class="vertical-line"></div>
-        <button class="install-app-btn"><img src="img/download.svg" alt="download icon" />Install App</button>
-        <div class="main-login">
-          <button class="signup-btn">Sign up</button>
-          <button class="login-btn">Log in</button>
         </div>
       </div>
-    </div>
-  </header>
-  <div class="content-layout">
-    <div class="side-library">
-      <div class="header">
-        <div class="library-heading">
-          <h1>Your Library</h1>
+      <div class="header-tab-view">
+        <div class="add-logo">
+          <img src="img/spotify-tab.svg" alt="spotify logo" />
         </div>
-        <div class="add-button">
-          <button><img src="img/add-button.svg" alt="song-add-button"></button>
+        <div class="home-search">
+          <button class="home-btn">
+            <img src="img/home.svg" alt="home icon" />
+          </button>
+          <button class="search-btn">
+            <img src="img/search.svg" alt="search icon" class="search-icon" />
+            <div class="search-bar">
+              <input placeholder="What do you want to play" />
+              <div class="browse-btn">
+                <img src="img/browse.svg" alt="" />
+              </div>
+            </div>
+          </button>
         </div>
-      </div>
-    </div>
-    <div class="song-container">
-      <div class="song-heading">
-        <h2 class="title">Trending songs</h2>
-      </div>
-      <div class="cards-scroll">
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e025be30e0d058181d80d470511" alt="playlist image"
-            class="song-img" />
-          <div class="song-name">Ghar Kab Aaoge (From "BORDER 2")</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e02e0807b4138d187c74233853b" alt="playlist image"
-            class="song-img" />
-          <div class="song-name">Raavana Mavandaa (From "Jana...</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e02fddfffec51b4580acae727c1" alt="playlist image"
-            class="song-img" />
-          <div class="song-name">End of Beginning</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e028fa95e3e74799cb0b2a1fb57" alt="playlist image"
-            class="song-img" />
-          <div class="song-name">Aadat (Feat. AP Dhillon)</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e0218e0c34df0355a2cf18734c5" alt="playlist image"
-            class="song-img" />
-          <div class="song-name">Seet Lehar</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e02c53e5adf9f81693d62f98019" alt="playlist image"
-            class="song-img" />
-          <div class="song-name">Gehra Hua</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e022a4e909cd5d1697c4d3394fd" alt="playlist image"
-            class="song-img" />
-          <div class="song-name">Sandese Aate Hai - From "Border"</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e02eeb44c045e4a94a0ab8ce242" alt="playlist image"
-            class="song-img" />
-          <div class="song-name">Nache Nache (From "The RajaSaab")</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e02dccd4f11c8ac8e1f2c8dfc51" alt="playlist image"
-            class="song-img" />
-          <div class="song-name">SItaare (From "Ikkis")</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e023e37578080dc1ce3dd300e13" alt="playlist image"
-            class="song-img" />
-          <div class="song-name">Hopeless</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e02ab3a63b72e8c2bd9bfb45ff1" alt="playlist image"
-            class="song-img" />
-          <div class="song-name">By My Side</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e024c2798e247fd768c8eec464b" alt="playlist image"
-            class="song-img" />
-          <div class="song-name">Puthu Mazha (From "Sarvam Maya")</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e020cfff15d92e2acb5a4b45ef5" alt="playlist image"
-            class="song-img" />
-          <div class="song-name">Ishqa Ve</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e029cd3c5b30459fd627feccb03" alt="playlist image"
-            class="song-img" />
-          <div class="song-name">Meri Zindagi Hai Tu</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e02c65eb44f9039e006247ef8f7" alt="playlist image"
-            class="song-img" />
-          <div class="song-name">Namo Namo</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e029364ca9219b56d781f4e4f5d" alt="playlist image"
-            class="song-img" />
-          <div class="song-name">Sheesha</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e02ddb28b5aa28575745289c85a" alt="playlist image"
-            class="song-img" />
-          <div class="song-name">Teri Meri Kahaani</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e02800b170e496333c952504428" alt="playlist image"
-            class="song-img" />
-          <div class="song-name">Jaat Gelya Yaari</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e02e7fe7d656750737e8d369f95" alt="playlist image"
-            class="song-img" />
-          <div class="song-name">Darkhaast</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e0274587e0e74ae1a46599348b7" alt="playlist image"
-            class="song-img" />
-          <div class="song-name">Laagi Lagan Shankara</div>
+        <div class="spotify-supports">
+          <a href="#" class="supports-content">Premium</a>
+          <a href="#" class="supports-content">Support</a>
+          <a href="#" class="supports-content">Download</a>
+          <div class="vertical-line"></div>
+          <button class="install-app-btn"><img src="img/download.svg" alt="download icon" />Install App</button>
+          <div class="main-login">
+            <button class="signup-btn">Sign up</button>
+            <button class="login-btn">Log in</button>
+          </div>
         </div>
       </div>
-      <div class="song-heading">
-        <h2 class="title">Popular artists</h2>
-      </div>
-      <div class="cards-scroll">
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="artists"
-            class="song-img" />
-          <div class="song-name">Pritam</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" alt="artists"
-            class="song-img" />
-          <div class="song-name">A.R. Rahman</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" alt="artists"
-            class="song-img" />
-          <div class="song-name">Arijit Singh</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616100005174bb4064bef3a825344d5eb79e" alt="artists"
-            class="song-img" />
-          <div class="song-name">Sachin-Jigar</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab6761610000517490b6c3d093f9b02aad628eaf" alt="artists"
-            class="song-img" />
-          <div class="song-name">Vishal-Shekhar</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84" alt="artists"
-            class="song-img" />
-          <div class="song-name">Atif Aslam</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab676161000051740f0be2054fe9594026a6b843" alt="artists"
-            class="song-img" />
-          <div class="song-name">Anirudh Ravichander</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab676161000051748de0e6e7e55d7773931ab7f4" alt="artists"
-            class="song-img" />
-          <div class="song-name">Udit Narayan</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616100005174bc7e4fffd515b47ff1ebbc1f" alt="artists"
-            class="song-img" />
-          <div class="song-name">Yo Yo Honey Singh</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab676161000051743db0499a689aa9b4a47ebba3" alt="artists"
-            class="song-img" />
-          <div class="song-name">Shankar-Ehsaan-Loy</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616100005174e7ce89a9f5d11e0ba26677eb" alt="artists"
-            class="song-img" />
-          <div class="song-name">Shreya Ghoshal</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616100005174852737800de564b2c0efe165" alt="artists"
-            class="song-img" />
-          <div class="song-name">Jasleen Royal</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616100005174a37271f7a4862a6e99ce345f" alt="artists"
-            class="song-img" />
-          <div class="song-name">Amit Trivedi</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616100005174e34fad78221a2cb31da57946" alt="artists"
-            class="song-img" />
-          <div class="song-name">Sachet Tandon</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616100005174935b2dd507212bd72a71d7f9" alt="artists"
-            class="song-img" />
-          <div class="song-name">Alka Yagnik</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab676161000051742cfc402fa29cd2949023a8bf" alt="artists"
-            class="song-img" />
-          <div class="song-name">Himesh Reshmmiya</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616100005174a837a6cb82dd949d5e1f9b53" alt="artists"
-            class="song-img" />
-          <div class="song-name">Anuv Jain</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab676161000051744490e20daec093c04ede38c6" alt="artists"
-            class="song-img" />
-          <div class="song-name">Shubh</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab676161000051747b386b1320742bd6686854e7" alt="artists"
-            class="song-img" />
-          <div class="song-name">Badshah</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab676161000051749415df28058107b5d54f9fad" alt="artists"
-            class="song-img" />
-          <div class="song-name">Sachet-Parampara</div>
+    </header>
+    <div class="content-layout">
+      <div class="side-library">
+        <div class="header">
+          <div class="library-heading">
+            <h1>Your Library</h1>
+          </div>
+          <div class="add-button">
+            <button><img src="img/add-button.svg" alt="song-add-button" /></button>
+          </div>
         </div>
       </div>
-      <div class="song-heading">
-        <h2 class="title">Popular albums and singles</h2>
-      </div>
-      <div class="cards-scroll">
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="popular"
-            class="song-img" />
-          <div class="song-name">Aashiqui 2</div>
+      <div class="song-container">
+        <div class="song-heading">
+          <h2 class="title">Trending songs</h2>
         </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4" alt="popular"
-            class="song-img" />
-          <div class="song-name">Yeh Jawaani Hai Deewani</div>
+        <div class="cards-scroll">
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e025be30e0d058181d80d470511" alt="playlist image" class="song-img" />
+            <div class="song-name">Ghar Kab Aaoge (From "BORDER 2")</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e02e0807b4138d187c74233853b" alt="playlist image" class="song-img" />
+            <div class="song-name">Raavana Mavandaa (From "Jana...</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e02fddfffec51b4580acae727c1" alt="playlist image" class="song-img" />
+            <div class="song-name">End of Beginning</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e028fa95e3e74799cb0b2a1fb57" alt="playlist image" class="song-img" />
+            <div class="song-name">Aadat (Feat. AP Dhillon)</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e0218e0c34df0355a2cf18734c5" alt="playlist image" class="song-img" />
+            <div class="song-name">Seet Lehar</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e02c53e5adf9f81693d62f98019" alt="playlist image" class="song-img" />
+            <div class="song-name">Gehra Hua</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e022a4e909cd5d1697c4d3394fd" alt="playlist image" class="song-img" />
+            <div class="song-name">Sandese Aate Hai - From "Border"</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e02eeb44c045e4a94a0ab8ce242" alt="playlist image" class="song-img" />
+            <div class="song-name">Nache Nache (From "The RajaSaab")</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e02dccd4f11c8ac8e1f2c8dfc51" alt="playlist image" class="song-img" />
+            <div class="song-name">SItaare (From "Ikkis")</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e023e37578080dc1ce3dd300e13" alt="playlist image" class="song-img" />
+            <div class="song-name">Hopeless</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e02ab3a63b72e8c2bd9bfb45ff1" alt="playlist image" class="song-img" />
+            <div class="song-name">By My Side</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e024c2798e247fd768c8eec464b" alt="playlist image" class="song-img" />
+            <div class="song-name">Puthu Mazha (From "Sarvam Maya")</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e020cfff15d92e2acb5a4b45ef5" alt="playlist image" class="song-img" />
+            <div class="song-name">Ishqa Ve</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e029cd3c5b30459fd627feccb03" alt="playlist image" class="song-img" />
+            <div class="song-name">Meri Zindagi Hai Tu</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e02c65eb44f9039e006247ef8f7" alt="playlist image" class="song-img" />
+            <div class="song-name">Namo Namo</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e029364ca9219b56d781f4e4f5d" alt="playlist image" class="song-img" />
+            <div class="song-name">Sheesha</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e02ddb28b5aa28575745289c85a" alt="playlist image" class="song-img" />
+            <div class="song-name">Teri Meri Kahaani</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e02800b170e496333c952504428" alt="playlist image" class="song-img" />
+            <div class="song-name">Jaat Gelya Yaari</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e02e7fe7d656750737e8d369f95" alt="playlist image" class="song-img" />
+            <div class="song-name">Darkhaast</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e0274587e0e74ae1a46599348b7" alt="playlist image" class="song-img" />
+            <div class="song-name">Laagi Lagan Shankara</div>
+          </div>
         </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e02711c1639b4bc0f9978ae77a6" alt="popular"
-            class="song-img" />
-          <div class="song-name">Snam Teri Kasam (Original Motion...</div>
+        <div class="song-heading">
+          <h2 class="title">Popular artists</h2>
         </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e0283141000ee8ce3b893a0b425" alt="popular"
-            class="song-img" />
-          <div class="song-name">Finding Her</div>
+        <div class="cards-scroll">
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="artists" class="song-img" />
+            <div class="song-name">Pritam</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" alt="artists" class="song-img" />
+            <div class="song-name">A.R. Rahman</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" alt="artists" class="song-img" />
+            <div class="song-name">Arijit Singh</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616100005174bb4064bef3a825344d5eb79e" alt="artists" class="song-img" />
+            <div class="song-name">Sachin-Jigar</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab6761610000517490b6c3d093f9b02aad628eaf" alt="artists" class="song-img" />
+            <div class="song-name">Vishal-Shekhar</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84" alt="artists" class="song-img" />
+            <div class="song-name">Atif Aslam</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab676161000051740f0be2054fe9594026a6b843" alt="artists" class="song-img" />
+            <div class="song-name">Anirudh Ravichander</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab676161000051748de0e6e7e55d7773931ab7f4" alt="artists" class="song-img" />
+            <div class="song-name">Udit Narayan</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616100005174bc7e4fffd515b47ff1ebbc1f" alt="artists" class="song-img" />
+            <div class="song-name">Yo Yo Honey Singh</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab676161000051743db0499a689aa9b4a47ebba3" alt="artists" class="song-img" />
+            <div class="song-name">Shankar-Ehsaan-Loy</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616100005174e7ce89a9f5d11e0ba26677eb" alt="artists" class="song-img" />
+            <div class="song-name">Shreya Ghoshal</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616100005174852737800de564b2c0efe165" alt="artists" class="song-img" />
+            <div class="song-name">Jasleen Royal</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616100005174a37271f7a4862a6e99ce345f" alt="artists" class="song-img" />
+            <div class="song-name">Amit Trivedi</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616100005174e34fad78221a2cb31da57946" alt="artists" class="song-img" />
+            <div class="song-name">Sachet Tandon</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616100005174935b2dd507212bd72a71d7f9" alt="artists" class="song-img" />
+            <div class="song-name">Alka Yagnik</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab676161000051742cfc402fa29cd2949023a8bf" alt="artists" class="song-img" />
+            <div class="song-name">Himesh Reshmmiya</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616100005174a837a6cb82dd949d5e1f9b53" alt="artists" class="song-img" />
+            <div class="song-name">Anuv Jain</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab676161000051744490e20daec093c04ede38c6" alt="artists" class="song-img" />
+            <div class="song-name">Shubh</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab676161000051747b386b1320742bd6686854e7" alt="artists" class="song-img" />
+            <div class="song-name">Badshah</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab676161000051749415df28058107b5d54f9fad" alt="artists" class="song-img" />
+            <div class="song-name">Sachet-Parampara</div>
+          </div>
         </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e02a5183fa4b99bcec1f506418d" alt="popular"
-            class="song-img" />
-          <div class="song-name">Young G.O.A.T</div>
+        <div class="song-heading">
+          <h2 class="title">Popular albums and singles</h2>
         </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e02773c5f60bcb309ef8802e4ef" alt="popular"
-            class="song-img" />
-          <div class="song-name">Raanjhan(From "Do Patti")</div>
+        <div class="cards-scroll">
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="popular" class="song-img" />
+            <div class="song-name">Aashiqui 2</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4" alt="popular" class="song-img" />
+            <div class="song-name">Yeh Jawaani Hai Deewani</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e02711c1639b4bc0f9978ae77a6" alt="popular" class="song-img" />
+            <div class="song-name">Snam Teri Kasam (Original Motion...</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e0283141000ee8ce3b893a0b425" alt="popular" class="song-img" />
+            <div class="song-name">Finding Her</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e02a5183fa4b99bcec1f506418d" alt="popular" class="song-img" />
+            <div class="song-name">Young G.O.A.T</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e02773c5f60bcb309ef8802e4ef" alt="popular" class="song-img" />
+            <div class="song-name">Raanjhan(From "Do Patti")</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e021aa5adad8593923dcdf1a7d0" alt="popular" class="song-img" />
+            <div class="song-name">Ultimate Love Songs -Arijit Singh</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36" alt="popular" class="song-img" />
+            <div class="song-name">Making Memories</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e028e1bd9f2ca754ace0396d72f" alt="popular" class="song-img" />
+            <div class="song-name">Sicario</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="popular" class="song-img" />
+            <div class="song-name">Glory</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e0237624412a125715f02c58151" alt="popular" class="song-img" />
+            <div class="song-name">Best of Romance: Atif Aslam & Pritam</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e0272a77d038887cdc425f5ee55" alt="popular" class="song-img" />
+            <div class="song-name">Jo Tum Mere Ho</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e0252fe6875028c892308ffc2f7" alt="popular" class="song-img" />
+            <div class="song-name">Jab We Met</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e02bcb8ec035de7b2dda0f74660" alt="popular" class="song-img" />
+            <div class="song-name">Tum Mile (Original Motion Picture..</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e02982320da137d0de34410df61" alt="popular" class="song-img" />
+            <div class="song-name">Hurry Up Tomorrow</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e02c5545f737b16ad5ee767b62a" alt="popular" class="song-img" />
+            <div class="song-name">Kabir Singh</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e02051fe40d22813af67a3391d7" alt="popular" class="song-img" />
+            <div class="song-name">Hamari adhuri Kahani (Original...</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e028bb90d498961c79193a34916" alt="popular" class="song-img" />
+            <div class="song-name">WITHOUT PREJUDICE</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://i.scdn.co/image/ab67616d00001e0279f4a87c23143f0abb14c279" alt="popular" class="song-img" />
+            <div class="song-name">Mismatched:Season 3(Soundtrack from...</div>
+          </div>
         </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e021aa5adad8593923dcdf1a7d0" alt="popular"
-            class="song-img" />
-          <div class="song-name">Ultimate Love Songs -Arijit Singh</div>
+        <div class="song-heading">
+          <h2 class="title">Popular radio</h2>
         </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36" alt="popular"
-            class="song-img" />
-          <div class="song-name">Making Memories</div>
+        <div class="cards-scroll">
+          <div class="song-profile">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en" alt="popular radio" class="song-img" />
+            <div class="song-name">Arijit Singh Radio</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4fEkbug6kZzzJ8eYX6Kbbp/en" alt="popular radio" class="song-img" />
+            <div class="song-name">KK Radio</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0oOet2f43PA68X5RxKobEy/en" alt="popular radio" class="song-img" />
+            <div class="song-name">Shreya Ghoshal Radio</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/3gBKY0y3dFFVRqicLnVZYz/en" alt="popular radio" class="song-img" />
+            <div class="song-name">Alka Yagnik Radio</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2FKWNmZWDBZR4dE5KX4plR/en-GB" alt="popular radio" class="song-img" />
+            <div class="song-name">Diljit Dosanjh Radio</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/1mYsTxnqsietFxj1OgoGbG/en" alt="popular radio" class="song-img" />
+            <div class="song-name">A.R. Rahman Radio</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/7uIbLdzzSEqnX0Pkrb56cR/en-GB" alt="popular radio" class="song-img" />
+            <div class="song-name">Yo Yo Honey Singh Radio</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4PULA4EFzYTrxYvOVlwpiQ/en" alt="popular radio" class="song-img" />
+            <div class="song-name">Sidhu Moose Wala Radio</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0GF4shudTAFv8ak9eWdd4Y/en" alt="popular radio" class="song-img" />
+            <div class="song-name">Kishore Kumar Radio</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4K6blSRoklNdpw4mzLxwfn/en" alt="popular radio" class="song-img" />
+            <div class="song-name">Kumar Sanu Radio</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/3m49WVMU4zCkaVEKb8kFW7/en" alt="popular radio" class="song-img" />
+            <div class="song-name">Ilaiyaraaja Radio</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/5VVN3xZw1i2qihfITZlvCZ/en-GB" alt="popular radio" class="song-img" />
+            <div class="song-name">G. V. Prakash Radio</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/6DARBhWbfcS9E4yJzcliqQ/en-GB" alt="popular radio" class="song-img" />
+            <div class="song-name">Karan Aujla Radio</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/61JrslREXq98hurYL2hYoc/en" alt="popular radio" class="song-img" />
+            <div class="song-name">Lata Mangeshkar Radio</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/5r3wPya2PpeTTsXsGhQU8O/en" alt="popular radio" class="song-img" />
+            <div class="song-name">Shubh Radio</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/70B80Lwx2sxti0M1Ng9e8K/en" alt="popular radio" class="song-img" />
+            <div class="song-name">Udit Narayan Radio</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/36iDrP3UnCxsSH9LuSdkDj/en-GB" alt="popular radio" class="song-img" />
+            <div class="song-name">Masoom Sharma Radio</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0gXDpqwYNDODn7fB0RDN8J/en-GB" alt="popular radio" class="song-img" />
+            <div class="song-name">Mohammed Rafi Radio</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/3OLGltG8UPIea8sA4w0yg0/en-GB" alt="popular radio" class="song-img" />
+            <div class="song-name">Rahat Fateh Ali Khan Radio</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2ae6PxICSOZHvjqiCcgon8/en" alt="popular radio" class="song-img" />
+            <div class="song-name">S. P. Balasubrahmanyam</div>
+          </div>
         </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e028e1bd9f2ca754ace0396d72f" alt="popular"
-            class="song-img" />
-          <div class="song-name">Sicario</div>
+        <div class="song-heading">
+          <h2 class="">Featured Charts</h2>
         </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="popular"
-            class="song-img" />
-          <div class="song-name">Glory</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e0237624412a125715f02c58151" alt="popular"
-            class="song-img" />
-          <div class="song-name">Best of Romance: Atif Aslam & Pritam</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e0272a77d038887cdc425f5ee55" alt="popular"
-            class="song-img" />
-          <div class="song-name">Jo Tum Mere Ho</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e0252fe6875028c892308ffc2f7" alt="popular"
-            class="song-img" />
-          <div class="song-name">Jab We Met</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e02bcb8ec035de7b2dda0f74660" alt="popular"
-            class="song-img" />
-          <div class="song-name">Tum Mile (Original Motion Picture..</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e02982320da137d0de34410df61" alt="popular"
-            class="song-img" />
-          <div class="song-name">Hurry Up Tomorrow</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e02c5545f737b16ad5ee767b62a" alt="popular"
-            class="song-img" />
-          <div class="song-name">Kabir Singh</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e02051fe40d22813af67a3391d7" alt="popular"
-            class="song-img" />
-          <div class="song-name">Hamari adhuri Kahani (Original...</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e028bb90d498961c79193a34916" alt="popular"
-            class="song-img" />
-          <div class="song-name">WITHOUT PREJUDICE</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://i.scdn.co/image/ab67616d00001e0279f4a87c23143f0abb14c279" alt="popular"
-            class="song-img" />
-          <div class="song-name">Mismatched:Season 3(Soundtrack from...</div>
-        </div>
-      </div>
-      <div class="song-heading">
-        <h2 class="title">Popular radio</h2>
-      </div>
-      <div class="cards-scroll">
-        <div class="song-profile">
-          <img
-            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en"
-            alt="popular radio" class="song-img" />
-          <div class="song-name">Arijit Singh Radio</div>
-        </div>
-        <div class="song-profile">
-          <img
-            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4fEkbug6kZzzJ8eYX6Kbbp/en"
-            alt="popular radio" class="song-img" />
-          <div class="song-name">KK Radio</div>
-        </div>
-        <div class="song-profile">
-          <img
-            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0oOet2f43PA68X5RxKobEy/en"
-            alt="popular radio" class="song-img" />
-          <div class="song-name">Shreya Ghoshal Radio</div>
-        </div>
-        <div class="song-profile">
-          <img
-            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/3gBKY0y3dFFVRqicLnVZYz/en"
-            alt="popular radio" class="song-img" />
-          <div class="song-name">Alka Yagnik Radio</div>
-        </div>
-        <div class="song-profile">
-          <img
-            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2FKWNmZWDBZR4dE5KX4plR/en-GB"
-            alt="popular radio" class="song-img" />
-          <div class="song-name">Diljit Dosanjh Radio</div>
-        </div>
-        <div class="song-profile">
-          <img
-            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/1mYsTxnqsietFxj1OgoGbG/en"
-            alt="popular radio" class="song-img" />
-          <div class="song-name">A.R. Rahman Radio</div>
-        </div>
-        <div class="song-profile">
-          <img
-            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/7uIbLdzzSEqnX0Pkrb56cR/en-GB"
-            alt="popular radio" class="song-img" />
-          <div class="song-name">Yo Yo Honey Singh Radio</div>
-        </div>
-        <div class="song-profile">
-          <img
-            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4PULA4EFzYTrxYvOVlwpiQ/en"
-            alt="popular radio" class="song-img" />
-          <div class="song-name">Sidhu Moose Wala Radio</div>
-        </div>
-        <div class="song-profile">
-          <img
-            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0GF4shudTAFv8ak9eWdd4Y/en"
-            alt="popular radio" class="song-img" />
-          <div class="song-name">Kishore Kumar Radio</div>
-        </div>
-        <div class="song-profile">
-          <img
-            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4K6blSRoklNdpw4mzLxwfn/en"
-            alt="popular radio" class="song-img" />
-          <div class="song-name">Kumar Sanu Radio</div>
-        </div>
-        <div class="song-profile">
-          <img
-            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/3m49WVMU4zCkaVEKb8kFW7/en"
-            alt="popular radio" class="song-img" />
-          <div class="song-name">Ilaiyaraaja Radio</div>
-        </div>
-        <div class="song-profile">
-          <img
-            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/5VVN3xZw1i2qihfITZlvCZ/en-GB"
-            alt="popular radio" class="song-img" />
-          <div class="song-name">G. V. Prakash Radio</div>
-        </div>
-        <div class="song-profile">
-          <img
-            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/6DARBhWbfcS9E4yJzcliqQ/en-GB"
-            alt="popular radio" class="song-img" />
-          <div class="song-name">Karan Aujla Radio</div>
-        </div>
-        <div class="song-profile">
-          <img
-            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/61JrslREXq98hurYL2hYoc/en"
-            alt="popular radio" class="song-img" />
-          <div class="song-name">Lata Mangeshkar Radio</div>
-        </div>
-        <div class="song-profile">
-          <img
-            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/5r3wPya2PpeTTsXsGhQU8O/en"
-            alt="popular radio" class="song-img" />
-          <div class="song-name">Shubh Radio</div>
-        </div>
-        <div class="song-profile">
-          <img
-            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/70B80Lwx2sxti0M1Ng9e8K/en"
-            alt="popular radio" class="song-img" />
-          <div class="song-name">Udit Narayan Radio</div>
-        </div>
-        <div class="song-profile">
-          <img
-            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/36iDrP3UnCxsSH9LuSdkDj/en-GB"
-            alt="popular radio" class="song-img" />
-          <div class="song-name">Masoom Sharma Radio</div>
-        </div>
-        <div class="song-profile">
-          <img
-            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0gXDpqwYNDODn7fB0RDN8J/en-GB"
-            alt="popular radio" class="song-img" />
-          <div class="song-name">Mohammed Rafi Radio</div>
-        </div>
-        <div class="song-profile">
-          <img
-            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/3OLGltG8UPIea8sA4w0yg0/en-GB"
-            alt="popular radio" class="song-img" />
-          <div class="song-name">Rahat Fateh Ali Khan Radio</div>
-        </div>
-        <div class="song-profile">
-          <img
-            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2ae6PxICSOZHvjqiCcgon8/en"
-            alt="popular radio" class="song-img" />
-          <div class="song-name">S. P. Balasubrahmanyam</div>
-        </div>
-      </div>
-      <div class="song-heading">
-        <h2 class="">Featured Charts</h2>
-      </div>
-      <div class="cards-scroll">
-        <div class="song-profile">
-          <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg"
-            alt="featured charts" class="song-img" />
-          <div class="song-name">Top Songs - Global</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_in_default.jpg"
-            alt="featured charts" class="song-img" />
-          <div class="song-name">Top Songs - India</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg"
-            alt="featured charts" class="song-img" />
-          <div class="song-name">Top 50 - Global</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_in_default.jpg" alt=""
-            class="song-img" />
-          <div class="song-name">Top 50 - India</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_global_default.jpg" alt=""
-            class="song-img" />
-          <div class="song-name">Viral 50 - Global</div>
-        </div>
-        <div class="song-profile">
-          <img src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_in_default.jpg" alt=""
-            class="song-img" />
-          <div class="song-name">Viral 50 - India</div>
+        <div class="cards-scroll">
+          <div class="song-profile">
+            <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg" alt="featured charts" class="song-img" />
+            <div class="song-name">Top Songs - Global</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_in_default.jpg" alt="featured charts" class="song-img" />
+            <div class="song-name">Top Songs - India</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg" alt="featured charts" class="song-img" />
+            <div class="song-name">Top 50 - Global</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_in_default.jpg" alt="" class="song-img" />
+            <div class="song-name">Top 50 - India</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_global_default.jpg" alt="" class="song-img" />
+            <div class="song-name">Viral 50 - Global</div>
+          </div>
+          <div class="song-profile">
+            <img src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_in_default.jpg" alt="" class="song-img" />
+            <div class="song-name">Viral 50 - India</div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="mobile-bottom-navigation">
-    <a>
-      <img src="img/home.svg" alt="home-icon">
-      <span class="nav-text">Home</span>
-    </a>
-    <a>
-      <img src="img/search.svg" alt="search-icon">
-      <span class="nav-text">Search</span>
-    </a>
-    <a>
-      <img src="img/library.svg" alt="library-icon">
-      <span class="nav-text">Your Library</span>
-    </a>
-    <a>
-      <img src="img/premium-log.svg" alt="spotify-icon">
-      <span class="nav-text">Premium</span>
-    </a>
-  </div>
-</body>
-
+    <div class="mobile-bottom-navigation">
+      <a>
+        <img src="img/home.svg" alt="home-icon" />
+        <span class="nav-text">Home</span>
+      </a>
+      <a>
+        <img src="img/search.svg" alt="search-icon" />
+        <span class="nav-text">Search</span>
+      </a>
+      <a>
+        <img src="img/library.svg" alt="library-icon" />
+        <span class="nav-text">Your Library</span>
+      </a>
+      <a>
+        <img src="img/premium-log.svg" alt="spotify-icon" />
+        <span class="nav-text">Premium</span>
+      </a>
+    </div>
+  </body>
 </html>
