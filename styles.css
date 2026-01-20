@@ -72,7 +72,7 @@ header {
   border-right: 8px;
 }
 
-.title {
+.-list-title {
   color: #fff;
   font-size: 20px;
   font-weight: 700;
@@ -82,20 +82,20 @@ header {
   margin-left: 16px;
 }
 
-.cards-scroll {
+.songs-list {
   display: flex;
   overflow-x: scroll;
   scrollbar-width: none;
 }
 
-.song-profile {
+.song-card {
   padding: 8px;
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.song-profile:nth-child(1) {
+.song-card:nth-child(1) {
   margin-left: 8px;
 }
 
@@ -110,6 +110,7 @@ header {
   color: #fff;
   font-size: 16px;
   font-family: spotify-regular;
+  text-overflow: ellipsis;
 }
 
 .mobile-bottom-navigation {
@@ -300,6 +301,7 @@ header {
 
   .song-container {
     border-radius: 8px;
+    margin-right: 8px;
   }
 
   .playlist-container {
@@ -344,15 +346,37 @@ header {
     background: #fff;
     border: none;
     width: fit-content;
-  }
-
-  .create-playlist-content {
+    height: 32px;
     padding: 4px 16px;
     display: flex;
     align-items: center;
     font-size: 14px;
     font-weight: 700;
     font-family: spotify-Regular;
+  }
+
+  .-list-title {
+    margin-left: 40px;
+    font-size: 24px;
+  }
+
+  .song-card {
+    padding: 12px;
+    padding-top: 8px;
+  }
+
+  .song-card:nth-child(1) {
+    margin-left: 28px;
+  }
+
+  .song-img {
+    width: 153.72px;
+    height: 153.72px;
+    border-radius: 6px;
+  }
+
+  .artist-img {
+    border-radius: 50%;
   }
 }
 
